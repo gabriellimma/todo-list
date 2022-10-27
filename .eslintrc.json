@@ -1,0 +1,28 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": "airbnb-base",
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "semi": ["error", "always"],
+        "quotes": ["error", "single"],
+        "getter-return": "error",
+        "no-irregular-whitespace": "warn",
+        "no-unreachable": "warn",
+        "no-unused-vars": "error",
+        "no-use-before-define": "error",
+        "block-scoped-var": "warn",
+        "camelcase": "error",
+        "class-methods-use-this":"error",
+        "default-case": "error",
+        "eqeqeq": "warn",
+        "no-console":"off"
+    }
+}
